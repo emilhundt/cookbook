@@ -377,6 +377,7 @@ a { color: inherit; }
 .cap-stack p { font-size: 14px; color: var(--ink); }
 @media (max-width: 760px) {
   .canvas .caption { display: none; }
+  [data-slide="68"] .canvas .label { transform: translateY(-14px); }
   .cap-stack { display: block; }
   .slide-block { padding: 0 12px; }
   
