@@ -380,9 +380,7 @@ a { color: inherit; }
   [data-slide="68"] .canvas .label { transform: translateY(-14px); }
   .cap-stack { display: block; }
   .slide-block { padding: 0 12px; }
-  [data-slide="75"] .canvas .caption { display: block; }
-    [data-slide="75"] .cap-stack { display: none !important; }
-    [data-slide="75"] .canvas .caption p { font-size: 10px !important; }
+  
   
 }
 
