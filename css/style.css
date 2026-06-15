@@ -379,6 +379,13 @@ a { color: inherit; }
   .canvas .caption { display: none; }
   .cap-stack { display: block; }
   .slide-block { padding: 0 12px; }
+  .canvas .label { position: static; display: block; width: auto !important;
+      color: var(--ink); text-shadow: none; white-space: normal;
+      padding: 6px 2px 18px; font-size: 14px; }
+    [data-slide="68"] .canvas { aspect-ratio: auto; display: flex; flex-direction: column; }
+    [data-slide="68"] .ph { position: relative !important;
+      left: auto !important; top: auto !important; width: 100% !important; height: auto !important; }
+    [data-slide="68"] .ph img { position: static; height: auto; }
 }
 
 /* photo series (first cookbook) — two rows like the Keynote */
