@@ -539,3 +539,18 @@ a { color: inherit; }
   .lb .lb-prev, .lb .lb-next { display: none; }   /* swipe instead */
 }
 body.lb-lock { overflow: hidden; }
+.ph, .breather, .canvas { position: relative; }
+.credit-tag {
+  position: absolute;
+  left: 2.5%;
+  bottom: 2.5%;
+  z-index: 4;
+  color: #fff;
+  opacity: .55;
+  font-family: var(--display);
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 4px rgba(0,0,0,.6);
+  pointer-events: none;
+}
