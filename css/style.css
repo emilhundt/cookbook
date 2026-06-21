@@ -556,3 +556,19 @@ body.lb-lock { overflow: hidden; }
   text-shadow: 0 1px 4px rgba(0,0,0,.6);
   pointer-events: none;
 }
+.intro {
+  max-width: var(--content-w);
+  margin: 0 auto;
+  padding: clamp(40px, 7vh, 90px) var(--gutter);
+  text-align: center;
+}
+.intro p {
+  margin: 0 auto;
+  max-width: 1180px;
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: clamp(20px, 2.6vw, 40px);
+  line-height: 1.32;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
