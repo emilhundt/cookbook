@@ -242,7 +242,8 @@ a { color: inherit; }
 .contact-band a:hover { border-color: var(--ink); }
 @media (max-width: 760px) {
   .contact-band { grid-template-columns: 1fr; }
-.hero .sub { color: #111; }
+.hero .titles { top: 52%; }
+    .hero .sub { color: #fff; }
 }
 
 /* ---------- section dividers (word always centered) ---------- */
