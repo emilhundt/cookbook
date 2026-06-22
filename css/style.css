@@ -573,3 +573,6 @@ body.lb-lock { overflow: hidden; }
   letter-spacing: .03em;
   text-transform: uppercase;
 }
+#childhood img {
+  object-position: center 72% !important;
+}
