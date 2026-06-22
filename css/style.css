@@ -575,4 +575,5 @@ body.lb-lock { overflow: hidden; }
 }
 #childhood img {
   object-position: center 72% !important;
+  #childhood img { border: 20px solid red !important; }
 }
