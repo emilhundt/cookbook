@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Originalfotos in neue-bilder werden nach dem Einbauen entfernt und
+# gehoeren nicht auf die Website — nur die Hinweisdatei bleibt.
+neue-bilder/*
+!neue-bilder/HIER-BILDER-REINLEGEN.txt
+
+# Python
+__pycache__/
+*.pyc

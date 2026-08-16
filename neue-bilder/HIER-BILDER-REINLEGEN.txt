@@ -1,0 +1,22 @@
+HIER BILDER REINLEGEN
+=====================
+
+Leg die Fotos vom neuen Gericht einfach in diesen Ordner.
+Egal welches Format: iPhone-Foto (HEIC), JPG, PNG — alles geht.
+
+Wenn mehrere Fotos zum selben Gericht gehoeren, benenn sie so,
+dass die Reihenfolge klar ist:
+
+    steinbutt-1.jpg
+    steinbutt-2.jpg
+    steinbutt-3.jpg
+
+Danach sagst du zu Claude:
+
+    "Ich moechte neue Inhalte hochladen"
+
+Den Rest macht Claude. Nach dem Hochladen wird dieser Ordner
+automatisch wieder leergeraeumt — die Bilder liegen dann im
+richtigen Format in img/.
+
+Diese Datei bitte drin lassen.
