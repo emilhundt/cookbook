@@ -50,13 +50,32 @@ Die Seite lädt sich von selbst neu — du musst nur hinschauen.
 
 Wenn es dir gefällt, sag **„Sieht gut aus, mach es online"**.
 
-Claude bereitet alles vor. Einen Klick musst du selbst machen — der hängt an deinem GitHub-Login:
+Claude bereitet alles vor. Den letzten Schritt machst du selbst — er hängt an deinem GitHub-Login:
 
-1. Links in VS Code auf das Symbol mit den **drei verbundenen Punkten** (Source Control)
-2. Auf den blauen Knopf **Sync Changes** klicken
+1. In VS Code oben im Menü: **Terminal → New Terminal**
+2. Diese **eine Zeile** reinkopieren und **Enter** drücken:
+
+```
+cd ~/Desktop/Website/Code && git push
+```
+
+Wenn danach sowas dasteht, hat es geklappt:
+
+```
+   1787c68..4991d9a  main -> main
+```
 
 Nach **1–2 Minuten** ist es live auf emilhundt.com.
 Wenn du es nicht siehst: **⇧⌘R** drücken (lädt die Seite komplett neu).
+
+> **Immer diese eine Zeile benutzen** — auch wenn du den Weg über den blauen
+> „Sync Changes"-Knopf kennst. Der Knopf fehlt manchmal, weil VS Code noch
+> nicht mitbekommen hat, dass Claude gespeichert hat. Die Zeile oben
+> funktioniert immer.
+>
+> Kopier dabei **nur** die Zeile mit `cd ...`, nicht die Beispielausgabe
+> darunter — sonst meckert das Terminal mit `command not found`.
+> Das ist harmlos, macht aber unnötig Verwirrung.
 
 ---
 
@@ -103,3 +122,9 @@ Musst du nur ein einziges Mal machen.
 **Die Seite online ist noch alt** → 2 Minuten warten, dann **⇧⌘R**.
 
 **Du wirst nach einem GitHub-Login gefragt** → „Sign in with browser" wählen und im Browser bestätigen. Passiert nur einmal.
+
+**Im Terminal steht `fatal: not a git repository`** → das Terminal war im falschen Ordner. Nimm die komplette Zeile mit `cd ~/Desktop/Website/Code && git push`, nicht nur `git push`.
+
+**Im Terminal steht `command not found: To`** → du hast versehentlich die Beispielausgabe mitkopiert. Ohne Wirkung, einfach ignorieren.
+
+**Der blaue „Sync Changes"-Knopf ist nicht da** → brauchst du nicht. Nimm die Zeile aus Schritt 4.
